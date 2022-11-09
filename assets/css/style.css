@@ -1,0 +1,50 @@
+/* Imports */
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.has-error small{color:red;font-weight:normal;margin-left:5px;}
+#jumbotron-index{margin-top:50px;background:#666;color:#eee;}
+
+.card {
+    min-height: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #444;
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+}
+
+.card article {
+    padding: 14px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.card .thumb {
+    padding-bottom: 60%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-layout {
+    display: flex;
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+    margin-left: 8.0rem;
+    margin-right: 8.00rem;
+}
+
+.card-layout__item {
+    /* There will be 3 cards per row */
+    flex-basis: 20%;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}

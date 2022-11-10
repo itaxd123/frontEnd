@@ -1,7 +1,7 @@
 # frontEnd
 
 Apis
-Productos
+Productos - Desarrollado con PHP como backend y consumo con JS
 
 GET Obtener todos los Productos
 
